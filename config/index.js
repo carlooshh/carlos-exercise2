@@ -50,7 +50,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/carlos-exercise2',
+    assetsPublicPath: '/vue-push-dir',
 
     /**
      * Source Maps
