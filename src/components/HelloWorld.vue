@@ -13,7 +13,7 @@
         </div>
       </form> 
     </div>
-    <button @click="verificarArray">verificar se array é simetrico </button>
+    <button @click.prevent="verificarArray">verificar se array é simetrico </button>
   </center>
 </template>
 
