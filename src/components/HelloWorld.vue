@@ -6,7 +6,7 @@
     <div class="col-9 col-md-6 col-lg-4 card m-5 p-5">
       <form class="col-12" >      
         <input class="col-12" type="number" v-model="elemento"/>     
-        <button class="col-8 mt-3" @click="adicionarElemento" >+ elemento</button>     
+        <button class="col-8 mt-3" @click.prevent="adicionarElemento" >+ elemento</button>     
         <div v-if="array.length === 0" class="text-danger mt-2">{{arrayMsg}}</div>
         <div v-else>
           Seu array é {{ array }}
