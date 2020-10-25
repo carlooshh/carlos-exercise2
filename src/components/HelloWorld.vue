@@ -1,7 +1,7 @@
 <template>
   <center >
     <div class="12">
-      <h1>Exercise grão direto</h1>
+      <h1>Exercício grão direto</h1>
     </div>
     <div class="col-9 col-md-6 col-lg-4 card m-5 p-5">
       <form class="col-12" >      
